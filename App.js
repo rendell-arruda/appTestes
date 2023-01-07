@@ -13,7 +13,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import Cliente from './src/Cliente';
+// import Cliente from './src/Cliente';
 
 export default function App() {
   function enviarDados() {
@@ -141,7 +141,7 @@ export default function App() {
           </TouchableOpacity>
         </View>
         {/* tornar visivel se o nome estiver preenchido */}
-        {nome ? (
+        {/* {nome ? (
           <View style={styles.area}>
             <Cliente
               nome={nome}
@@ -152,7 +152,7 @@ export default function App() {
           </View>
         ) : (
           ''
-        )}
+        )} */}
         {/* CLIENTE */}
       </SafeAreaView>
     </ScrollView>
